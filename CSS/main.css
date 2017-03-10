@@ -1,0 +1,435 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td,
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+    vertical-align: baseline;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+body {
+    background: white;
+    line-height: 1;
+    color: black;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+/* tables still need cellspacing="0" in the markup */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+    content: "";
+}
+
+blockquote, q {
+    quotes: "" "";
+}
+
+/*====================================================================*/
+body {
+    font: 12px Arial, Verdana, Tahoma, sans-serif;
+}
+
+.polosaTOP {
+    background: black;
+    width: auto;
+    height: 17px;
+}
+
+#wraper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    margin: 10px 0;
+    border-bottom: 1px solid #999898;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    width: 183px;
+    height: 100px;
+    float: left;
+    margin: 10px 0;
+}
+
+/* Style for "info@Creat" */
+.infoCreate {
+    float: right;
+    height: 13px;
+    color: #999898;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 4px 0 0 0;
+}
+
+/* Style for "home about" */
+.about {
+}
+
+::selection {
+    color: greenyellow;
+    background-color: #999898;
+}
+
+/*========================================*/
+
+.col-1-3 {
+    float: left;
+    width: 33.33%;
+    /*display: inline-block;*/
+    /*padding: 0;*/
+    /*margin: 0;*/
+    /*height: 30px;*/
+    /*overflow: hidden;*/
+}
+
+.col-2-3 {
+    float: left;
+    width: 66.666%;
+}
+
+.col-1-4 {
+    /*display: inline-block;*/
+    float: left;
+    width: 25%;
+    /*margin: 0 auto;*/
+}
+
+/*=========blok1========*/
+
+.blok1 {
+    overflow: hidden;
+    border-bottom: 1px solid #999898;
+}
+
+header nav {
+    float: right;
+}
+
+nav ul li {
+    float: left;
+    /*display: inline;*/
+    margin-top: 30px;
+    margin-left: 60px;
+
+}
+
+nav ul li a {
+    width: 657px;
+    height: 10px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fe9b00;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #090909;
+}
+
+/* Text style for "home" */
+nav ul li a.home {
+    color: #090909;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+
+}
+
+nav ul li:last-child {
+
+}
+
+hr {
+    float: left;
+    width: 960px;
+    height: 1px;
+    margin: 18px 0;
+}
+
+.cube {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    width: 960px;
+    height: 380px;
+    background-image: linear-gradient(-55deg, #e25000 0%, #fe9b00 100%);
+    overflow: hidden;
+}
+
+.cube .text {
+    width: 454px;
+    height: 213px;
+    text-shadow: 1px 2px 2px rgba(144, 63, 3, 0.35);
+    color: #f4f4f4;
+    font-family: nevis;
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 75px;
+    text-transform: uppercase;
+    margin: 40px 0 0 27px;
+}
+
+.cube .foto {
+    position: absolute;
+    bottom: -3px;
+    right: 0%;
+}
+
+.cube .bat-cart {
+    margin-top: 45px;
+    margin-left: 35px;
+}
+
+/*=========///blok1========*/
+
+/*=========blok2========*/
+
+.blok2 {
+    overflow: hidden;
+    border-bottom: 1px solid #999898;
+    padding-bottom: 20px;
+    padding-top: 24px;
+}
+
+.blok2 ul:below-level {
+    /*padding-bottom: 10px;*/
+}
+
+.pad28 {
+    padding: 0 28px 0 28px;
+}
+
+.ul2b2 li {
+    list-style-image: url(../Files/OkLi.png);
+}
+
+.blok2 ul {
+    margin-top: 10px;
+    padding-top: 20px;
+    /*margin-bottom: 20px;*/
+}
+
+.read {
+    color: #fe9b00;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.ggg {
+    font-family: "Wingdings 3";
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* Style for "Lorem ipsu" */
+
+.textZagol,
+.textb2 ul {
+    color: #090909;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.textb2 li {
+    font-size: 40px;
+    color: #5d5d5d;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 20px;
+}
+
+.blok2 ul li span {
+    color: #090909;
+    font-style: italic;
+}
+
+.textZagol {
+    display: block;
+    padding-bottom: 10px;
+    border-bottom: 6px solid black;
+}
+.pad25 {
+    padding-left: 25px;
+}
+/*ul.pad25 li{*/
+    /*text-align: left;*/
+/*}*/
+
+/*=========///blok2========*/
+
+/*=========blok3========*/
+.blok3 {
+    overflow: hidden;
+    border-bottom: 1px solid #999898;
+    padding-bottom: 20px;
+    padding-top: 24px;
+}
+
+.blok3 .col-1-4 img {
+    display: block;
+    margin: 0 auto;
+}
+
+.pad16 {
+    padding: 0 0px 0 0px;
+}
+
+.blok3 .blogtext {
+    font-size: 18px;
+    font-family: Arial;
+    text-transform: uppercase;
+    margin: 21px 0 19px 0;
+}
+
+/*=========///blok3========*/
+
+/*=========blok4========*/
+.blok4 {
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.border {
+    /*border: 1px solid black;*/
+}
+
+/*================SOSIAL========================================*/
+.blok4 .a-all a {
+    margin: 0 14px;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+}
+
+.blok4 .a1 {
+    background: url("../Files/sosial.png") 0px 0px no-repeat;
+}
+
+.blok4 .a2 {
+    background: url("../Files/sosial.png") -46px 0px no-repeat;
+}
+
+.blok4 .a3 {
+    background: url("../Files/sosial.png") -92px 0px no-repeat;
+}
+
+.blok4 .a4 {
+    background: url("../Files/sosial.png") -140px 0px no-repeat;
+}
+
+/*===============================================================*/
+.text1234 {
+    color: #090909;
+    font-family: Arial;
+    font-weight: 700;
+    line-height: 75px;
+    text-transform: uppercase;
+}
+
+.text123 {
+    color: #5d5d5d;
+    font-family: Arial;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/*=========///blok4========*/
+
+/*=========footer========*/
+footer {
+    width: 100%;
+    display: block;
+    background-color: #e2e2e2;
+    /*height: 200px;*/
+    color: #5d5d5d;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+footer img {
+    float: right;
+    margin: 0 auto;
+}
+
+.footwraper {
+    display: block;
+    width: 960px;
+    margin: 0 auto 50px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footcent {
+    /*float: left;*/
+    /*padding-top: 50px;*/
+    /*padding-bottom: 50px;*/
+    /*!*margin: 50px 0;*!*/
+}
+
+.footbottom {
+    float: left;
+    margin: 0 auto;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 12px;
+    /*background-color: #e2e2e2;*/
+    color: #5d5d5d;
+}
+
+footer a:hover {
+    color: #090909;
+}
+
+footer nav {
+    /*display: block;*/
+    /*display: block;*/
+    /*width: 336px;*/
+    /*height: 32px;*/
+
+}
+
+/*=========////footer========*/
+
